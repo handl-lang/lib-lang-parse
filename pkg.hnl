@@ -1,0 +1,12 @@
+-- lib-lang-parse: the `lang_parse` module — the `parse` meta function
+-- as a composable `plugin-lib-*` leaf crate. Transitional layout: the
+-- .hnl surface is `handl-packages/lang_parse/lang_parse.hnl`; the
+-- parser stays Rust.
+{
+  modules: ["lang_parse"],
+  name: "lang_parse",
+  description: "The parse meta function — parse tokens/source into a handl AST.",
+  license: "MIT",
+  keywords: ["parse", "meta", "ast", "lang", "handl"],
+  homepage: "https://github.com/handl-lang/lib-lang-parse",
+}
