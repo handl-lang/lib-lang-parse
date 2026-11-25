@@ -4,7 +4,7 @@
 -- parser stays Rust.
 {
   modules: ["lang_parse"],
-  name: "lang_parse",
+  name: "lang-parse",
   description: "The parse meta function — parse tokens/source into a handl AST.",
   license: "MIT",
   keywords: ["parse", "meta", "ast", "lang", "handl"],
