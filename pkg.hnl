@@ -2,6 +2,7 @@
 -- as a composable `plugin-lib-*` leaf crate. Transitional layout: the
 -- .hnl surface is `handl-packages/lang_parse/lang_parse.hnl`; the
 -- parser stays Rust.
+-- test_coverage "none": comment-only interface decl — the parser stays Rust.
 {
   modules: ["lang_parse"],
   name: "lang-parse",
@@ -9,4 +10,5 @@
   license: "MIT",
   keywords: ["parse", "meta", "ast", "lang", "handl"],
   homepage: "https://github.com/handl-lang/lib-lang-parse",
+  test_coverage: "none",
 }
